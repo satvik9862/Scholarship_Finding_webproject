@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+
+
+<!-- 
+    <form method="POST" action="/api/v1/createTodo">
+
+        <label>Enter title:</label>
+        <input type="text" name="title" placeholder="title"/>
+        <label>Enter Description</label>
+        <input type="text" name="description" placeholder="Description"/>
+        <button type="submit">Click me!</button>
+    </form> -->
+    <form action="/createProfile" method="POST">
+    <!-- <div class="input-field">
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <i class="uil uil-user"></i>
+    </div>
+    <div class="input-field">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <i class="uil uil-envelope icon"></i>
+    </div> -->
+    <div class="input-field">
+        <input type="text" id="p" name="city" class="password" placeholder="City" required>
+        <i class="uil uil-lock icon"></i>
+    </div>
+    <div class="input-field">
+        <input type="text" id="psw" name="state" class="password" placeholder="State" required>
+        <i class="uil uil-lock icon"></i>
+    </div>
+    <div class="input-field">
+        <input type="number" id="psw" name="income" class="password" placeholder="Income" required>
+        <i class="uil uil-lock icon"></i>
+    </div>
+  
+    <div class="input-field">
+        <input type="date" id="psw" name="dob" class="password" placeholder="DOB" required>
+        <i class="uil uil-lock icon"></i>
+    </div>
+    <div class="input-field">
+        <select id="education" name="education" required>
+            <option value="" disabled selected>Select your EDUCATION</option>
+            <option value="1-10">CLASS 1 TO 10</option>
+            <option value="11-12">11 & 12TH</option>
+            <option value="undergraduation">UNDERGRADUATION</option>
+            <option value="postgraduation">post GRADUATION</option>
+            <option value="engineering">Engineering</option>
+            <option value="medical">Medical</option>
+
+        </select>
+    </div>
+    <div class="input-field">
+        <select id="caste" name="caste" required>
+            <option value="" disabled selected>Select your caste</option>
+            <option value="OBC">OBC</option>
+            <option value="ST">ST</option>
+            <option value="SC">SC</option>
+            <option value="GENERAL">GENERAL</option>
+        </select>
+    </div>
+    <div class="input-field">
+        <span>Gender:</span>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+       
+    </div>
+
+    <div class="checkbox-text">
+        <div class="checkbox-content">
+            <input type="checkbox" id="termCon" required>
+            <label for="termCon" class="text">I accept all terms and conditions</label>
+        </div>
+    </div>
+
+    <button type="submit">Click me!</button>
+</form>
+
+   
+    
+
+
+
+</body>
+</html>

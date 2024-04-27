@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body class="bg-gray-400">
+    <!-- <header class="bg-white shadow">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between py-4">
+                <div>
+                    <a href="#" class="text-lg font-semibold text-gray-800">Your Logo</a>
+                </div>
+                <div>
+                    <a href="/home" class="text-gray-600 hover:text-gray-800 px-4">Home</a>
+                    <a href="/dashboard" class="text-gray-600 hover:text-gray-800 px-4">Dashboard</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 px-4">Services</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 px-4">Contact</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 px-4">Sign Up</a>
+                    <a href="/" class="text-gray-600 hover:text-gray-800 px-4">Log Out</a>
+                </div>
+            </nav>
+        </div>
+    </header> -->
+
+
+
+    <div class="flex h-screen">
+        <div class="w-64 bg-gray-800 text-white">
+          <div class="p-4">
+            <h2 class="text-2xl font-bold">Scholarship</h2>
+          </div>
+          <nav class="text-white mt-8">
+            <ul>
+              <li class="py-2">
+                <a href="/home" class="flex items-center px-4">
+                  <i class="fas fa-home mr-2"></i> Home
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/get" class="flex items-center px-4">
+                  <i class="fas fa-graduation-cap mr-2"></i> Scholarships
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="flex items-center px-4">
+                  <i class="fas fa-info-circle mr-2"></i> About
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/chat" class="flex items-center px-4">
+                  <i class="fas fa-envelope mr-2"></i> Community Forum
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/profile" class="flex items-center px-4">
+                  <i class="fa-solid fa-user-plus mr-2"></i> Profile
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/" class="flex items-center px-4">
+                  <i class="fa-solid fa-right-to-bracket"></i> Log out
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+            <div class="flex  flex-wrap justify-around mt-8 ">
+                <div class="bg-[#001d3d] text-white p-4 rounded-lg w-[500px] h-[350px] flex justify-center items-center border-slate-300">
+                        <div class="flex flex-col text-center">
+                            <a class="font-bold text-xl mb-4" href="/match">Search by criteria</a>
+                            <i class="fa-solid fa-folder-tree text-[150px]"></i>
+                        </div>
+                  </div>
+      
+                  <div class="bg-[#80ed99] text-white p-4 rounded-lg w-[500px] h-[350px] flex justify-center items-center">
+                        <div class="flex flex-col text-center">
+                            <a class="font-bold text-xl mb-4" href='/like'>Like</a>
+                            <i class="fa-regular fa-money-bill-1 text-[150px]"></i>
+                        </div>
+                    </div>
+      
+                    <div class="bg-[#80ed99] text-white p-4 rounded-lg w-[500px] h-[350px] flex justify-center items-center">
+                        <div class="flex flex-col text-center">
+                            <a class="font-bold text-xl mb-4" href="/get">Scholarship list</a>
+                            <i class="fa-regular fa-rectangle-list text-[150px]"></i>
+                        </div>
+                    </div>
+      
+                    <div class="bg-[#001d3d] text-white p-4 rounded-lg w-[500px] h-[350px] flex justify-center items-center">
+                        <div class="flex flex-col text-center">
+                            <a class="font-bold text-xl mb-4" href='/profile'>Profile</a>
+                            <i class="fa-regular fa-user text-[150px]"></i>
+                        </div>
+                    </div>
+
+            </div>
+            <script>
+              // Check if message exists and is not empty
+              var message = "<%= typeof message !== 'undefined' ? message : '' %>";
+              if (message.trim() !== '') {
+                  // Display prompt message
+                  window.alert(message);
+              }
+          </script>
+          
+            
+        
+          
+          
+</body>
+</html>

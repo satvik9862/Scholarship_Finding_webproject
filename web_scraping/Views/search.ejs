@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Management System</title>
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        aside {
+            background-color: #f4f4f4;
+            float: left;
+            width: 200px;
+            padding: 10px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        main {
+            margin-left: 220px; /* Adjust based on sidebar width */
+            padding: 20px;
+        }
+
+        /* Scholarship Frame Styles */
+        .scholarship-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start; /* Align items at the top of each row */
+        }
+
+        .scholarship-frame {
+            width: calc(33.33% - 20px); /* Adjust based on the desired width for each scholarship */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .scholarship-frame h2 {
+            margin-top: 0;
+        }
+
+        .scholarship-frame p {
+            margin: 5px 0;
+        }
+
+        .scholarship-frame button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+
+<!-- Navbar -->
+<header>
+    <nav>
+        <h1>Scholarship Management System</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Add Scholarship</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Sidebar -->
+<aside>
+    <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Add Scholarship</a></li>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">Scholarship Collection</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</aside>
+
+<!-- Main Content -->
+<main>
+    <!-- Search Form -->
+
+<!-- Search Form -->
+<form action="/search" method="GET">
+    <input type="text" name="q" placeholder="Search Scholarships">
+    <button type="submit">Search</button>
+</form>
+
+<!-- Render Search Results -->
+<div class="scholarship-container">
+    <% scholarships.forEach(scholarship => { %>
+    <div class="scholarship-frame">
+        <h2><%= scholarship.title %></h2>
+        <p><%= scholarship.award %></p>
+        <p><%= scholarship.deadline %></p>
+        <a href="/getTodo/<%= scholarship.title %>"><button>View Details</button></a>
+    </div>
+    <% }); %>
+
+
+<!-- Scholarship Frames -->
+<!--  -->
+
+</main>
+
+</body>
+</html>
+

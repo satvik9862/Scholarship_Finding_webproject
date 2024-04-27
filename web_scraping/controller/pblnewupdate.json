@@ -1,0 +1,400 @@
+[
+  {
+    "title": "Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "belong to the Scheduled Caste (SC) category",
+      "be studying in Class 11 and 12",
+      "have secured 75% and above marks in Class 10"
+    ],
+    "_eligibility": {
+      "state": "maharashtra",
+      "income": "NA",
+      "education": "11-12",
+      "caste": "SC",
+      "gender": "NA"
+    },
+    "link": "https://examplelink.com"
+  },
+  {
+    "title": "IET India Scholarship Award 2024",
+    "eligi": [
+      "Open for students studying in the 1st, 2nd, 3rd, or 4th year of a full-time regular undergraduate engineering program (in any field) approved by AICTE/UGC.",
+      "Applicants must have cleared all regular credit courses in a single attempt.",
+      "Applicants must have scored at least 60% in aggregate or an equivalent CGPA of at least six on a 10-point scale in the semesters cleared so far.",
+      "There is no age limit for the applicants."
+    ],
+    "_eligibility": {
+      "state": "maharashtra",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "income": "NA"
+    },
+    "link": "https://www.theiet.in/scholarship-award"
+  },
+  {
+    "title": "The Cadence Scholarship Program 2024-25",
+    "eligi": [
+      "Open for candidates residing and studying in Delhi NCR, Bangalore, Pune, or Ahmedabad (Indian nationals only).",
+      "For Undergraduate courses: Applicants must have successfully passed Class 12 with a minimum overall score of 60%. (NOTE: Candidates who are currently studying in Class 12 can also apply based on their previous record.)",
+      "For Postgraduate courses: Applicants must have completed graduation or be in the final year of their graduation program.",
+      "Applicants must reside and study in Delhi NCR, Bangalore, Pune, or Ahmedabad only.",
+      "Applicants must come from a lower-income group."
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "state": "NA",
+      "city": "pune"
+    },
+    "link": "https://cadence.com/scholarship"
+  },
+  {
+    "title": "Eklavya Scholarship, Maharashtra 2023-24",
+    "eligi": [
+      "be a graduate domiciled in Maharashtra",
+      "have secured a minimum of  60% marks in the Law, Commerce, and Arts streams and 70% marks in the Science stream from a recognised institution/university of Maharashtra",
+      "have an annual family income of less than or equal to ₹75,000",
+      "not be working anywhere as a part-time or full-time employee"
+    ],
+    "_eligibility": {
+      "income": "75000",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in/Login/Login",
+    "updatedAt": "2024-04-02T16:56:19.645+00:00",
+    "__v": 0
+  },
+  {
+    "title": "MoSPI Postgraduate/Research Students Internship 2024-25",
+    "eligi": [
+      "be a citizen of India",
+      "be pursuing a postgraduation/research degree from a recognised college, university or institute",
+      "be studying in specific fields such as Statistics, Mathematical Statistics, Operational Research, Economics, Demography or any of the applied fields of statistics"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "postgraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "NA"
+    },
+    "link": "https://mospi.gov.in/"
+  },
+  {
+    "title": "Post-Matric Tuition Fee and Examination Fee (Freeship), Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "belong to Scheduled Caste (SC) or Neo-Buddhist community",
+      "be studying in Class 11 and above in a government-recognised institution of the state",
+      "have passed SSC or equivalent matric",
+      "have annual income less than or equal to ₹ 2,50,000 from all sources"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "undergraduation",
+      "caste": "SC",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "NA"
+  },
+  {
+    "title": "Maintenance Allowance for SC Students in Professional Courses, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "belong to the Scheduled Caste (SC) category",
+      "be enrolled in a professional course in a recognised institution",
+      "be residing in a hostel (either a government, institute or outside campus)",
+      "have annual income less than or equal to ₹ 2,50,000 from all sources"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "undergraduation",
+      "caste": "SC",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "title": "Post-Matric Scholarship for Persons with Disability, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "have a disability of 40% or more certified by a competent authority",
+      "be studying in Class 11 to Ph. D. level in a government/government-aided institution in Maharashtra",
+      "have taken admission through the CAP process"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "title": "Post-Matric Scholarship Scheme Government of India, Maharashtra 2023-24",
+    "eligi": [
+      "belong to Scheduled Tribe (ST) Category of Maharashtra",
+      "have passed Class 10",
+      "have an annual family income of not more than ₹2,50,000",
+      "not have a gap of more than 2 years in their formal education"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "11-12",
+      "caste": "ST",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in/"
+  },
+  {
+    "title": "Post-Matric Scholarship Scheme Government of India, Maharashtra 2023-24",
+    "eligi": [
+      "belong to Scheduled Tribe (ST) Category of Maharashtra",
+      "have passed Class 10",
+      "have an annual family income of not more than ₹2,50,000",
+      "not have a gap of more than 2 years in their formal education"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "11-12",
+      "caste": "ST",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "Vocational Education Maintenance Allowance to ST Students, Maharashtra 2023-24",
+    "eligi": [
+      "belong to Scheduled Tribe (ST) community of Maharashtra",
+      "be enrolled in a vocational course at a recognised institution",
+      "have an annual family income of less than or equal to ₹2,50,000",
+      "have passed the previous year's examination"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "undergraduation",
+      "caste": "ST",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "Vocational Education Fee Reimbursement 2023-24, Maharashtra",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "belong to Scheduled Tribe (ST) category",
+      "be enrolled in one of the following vocational courses: Engineering, Pharmacy, Animal Husbandry, Vaastu Shastra, Dairy Development, MBA or MCA",
+      "have an annual family income of no more than ₹2,50,000 from all sources"
+    ],
+    "_eligibility": {
+      "income": "250000",
+      "education": "undergraduation",
+      "caste": "ST",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulk Shishyavrutti Yojna, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "be pursuing a professional or non-professional course approved by the Director of Higher Education (DHE) at a government or government-aided university/college",
+      "have taken admission under the General or Socially and Economically Backward Classes (SEBC) category",
+      "have an annual family income of up to ₹ 8,00,000"
+    ],
+    "_eligibility": {
+      "income": "800000",
+      "education": "postgraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "Assistance to Meritorious Students Scholarship - Junior Level, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "be a Class 11 and 12 student",
+      "have achieved top ranks in the secondary and higher secondary examination",
+      "hold a DHE-sanctioned letter"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "11-12",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "State Government Open Merit Scholarship, Maharashtra 2023-24",
+    "eligi": [
+      "be a domicile of Maharashtra",
+      "have passed Class 12",
+      "have secured a minimum of 60% marks",
+      "be pursuing graduation in Arts/Commerce/Science, or Law"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "Scholarship to Meritorious Students Possessing Mathematics/Physics, Maharashtra 2023-24",
+    "eligi": [
+      "be domicile of Maharashtra",
+      "have secured at least 60% marks in Class 12 in Science exam or more than 60% in Maths & Physics",
+      "be pursuing graduation degree in Science",
+      "have Maths and Physics as main subjects"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://mahadbt.maharashtra.gov.in"
+  },
+  {
+    "title": "D. K. Bhave Scholarship 2024",
+    "eligi": [
+      "be a graduate of the Engineering Faculty of Savitribai Phule Pune University, or be a final year student pursuing a B.E. or B.Tech degree (in any branch) at an NBA-accredited institute within the PMC or PCMC area",
+      "have secured a confirmed admission based on merit for a master's degree in Engineering and Technology at an accredited university in the USA, Canada, Germany, or England",
+      "maintain a minimum academic record of a B grade or higher"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "maharashtra"
+    },
+    "link": "https://app1.unipune.ac.in/dkbhave/default.htm"
+  },
+  {
+    "title": "Cyprus Institute of Neurology and Genetics (CING) Scholarship 2024",
+    "eligi": [
+      "be an Indian national",
+      "hold a bachelor's degree from a recognised institution in a related field",
+      "Have applied for one of the following master's degree programs at the Cyprus Institute of Neurology & Genetics: M.Sc. in Molecular Medicine, M.Sc. in Medical Genetics, M.Sc. in Neuroscience, M.Sc. in Biotechnology. All programs are accredited by the Republic of Cyprus, European Union countries, and other countries",
+      "possess English language certification or any other internationally recognised standard if their previous degree was not taught in English"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "postgraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "NA"
+    },
+    "link": "https://extranet.cing.ac.cy/easyconsole.cfm?page=member_login_form"
+  },
+  {
+    "title": "Global Scholarship Program AIS 2024",
+    "eligi": [
+      "be a citizen of India or any country/region",
+      "have completed secondary school/high school education",
+      "have applied for an undergraduate/postgraduate course in any subject from an accredited college/institution/university in the world",
+      "have completed at least one term in the respective course",
+      "not be a college dropout"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "NA"
+    },
+    "link": "https://www.aistechnolabs.com/global-scholarship-program/"
+  },
+  {
+    "title": "'LIFE’S GOOD' Scholarship Program 2024 (Phase 1)",
+    "eligi": [
+      "Students must be pursuing undergraduate/postgraduate courses (any academic year) from select colleges/institutes across India.",
+      "First-year students must have scored a minimum of 60% marks in their class 12th examinations, while students in the 2nd, 3rd, and 4th years must have achieved a minimum of 60% marks in the previous academic year.",
+      "Children of employees of Buddy4Study and LG Electronics India Private Limited are not eligible to participate in the scholarship."
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "undergraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "NA"
+    },
+    "link": "https://www.buddy4study.com/application/LGIGS1/instruction"
+  },
+  {
+    "title": "India Fellow Social Leadership Program 2024-25",
+    "eligi": [
+      "be an Indian citizen",
+      "be between the age of 20 to 30 years",
+      "hold a graduate degree in any discipline or be on track to complete graduation by the fellowship start date",
+      "be willing to be placed in any region and assigned to any thematic area within the program",
+      "demonstrate a willingness to commit to the 18-month full-time fellowship program"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "postgraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "NA",
+      "state": "NA"
+    },
+    "link": "https://indiafellow.org/apply-now/"
+  },
+  {
+    "title": "Bhumi Fellowship Program in India 2024-26",
+    "eligi": [
+      "are aged between 20-30 years",
+      "hold a degree in Social Work, Sociology, English Literature, B.Ed., Psychology, Law, B.E., or B.Tech program",
+      "are aligned with Teaching, EdTech, or Systemic Transformation",
+      "have prior experience in event organising, club leading, team managing, or student union involvement",
+      "are willing to commit to a two-year full-time fellowship",
+      "are based in Chennai or are ready to move to Chennai"
+    ],
+    "_eligibility": {
+      "income": "NA",
+      "education": "postgraduation",
+      "caste": "NA",
+      "gender": "NA",
+      "city": "chennai",
+      "state": "tamil nadu"
+    },
+    "link": "https://fellowship.bhumi.ngo/?utm_source=Buddy4Stud&utm_campaign=BF23"
+  }
+]

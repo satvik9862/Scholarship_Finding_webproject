@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .eligibility-criteria {
+    list-style-type: disc;
+    margin-left: 20px; /* Adjust as needed */
+}
+.search-container {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc; /* Add border around search container */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 5px; /* Add padding to separate input and button */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: none; /* Remove default input border */
+    padding: 5px; /* Add padding to input */
+    outline: none; /* Remove input outline */
+}
+
+.search-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default button border */
+    padding: 5px 10px; /* Add padding to button */
+    margin-left: 5px; /* Add margin to separate button from input */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center justify-between py-4">
+                <div>
+                    <a href="#" class="text-lg font-semibold text-gray-800">Your Logo</a>
+                </div>
+                <div class="search-container">
+                    <form action="/search" method="GET" class="search-form">
+                        <input type="text" name="q" placeholder="Search Scholarships" class="search-input">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="flex h-screen">
+        <div class="w-64 bg-gray-800 text-white">
+          <div class="p-4">
+            <h2 class="text-2xl font-bold">Scholarship</h2>
+          </div>
+          <nav class="text-white mt-8">
+            <ul>
+              <li class="py-2">
+                <a href="/home" class="flex items-center px-4">
+                  <i class="fas fa-home mr-2"></i> Home
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/get" class="flex items-center px-4">
+                  <i class="fas fa-graduation-cap mr-2"></i> Scholarships
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="flex items-center px-4">
+                  <i class="fas fa-info-circle mr-2"></i> About
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/chat" class="flex items-center px-4">
+                  <i class="fas fa-envelope mr-2"></i> Community Forum
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/profile" class="flex items-center px-4">
+                  <i class="fa-solid fa-user-plus mr-2"></i> Profile
+                </a>
+              </li>
+              <li class="py-2">
+                <a href="/" class="flex items-center px-4">
+                  <i class="fa-solid fa-right-to-bracket"></i> Log out
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- main wrapper -->
+        <div class="flex flex-col ">
+            <div class="flex flex-col gap-4 ml-5 mr-5 mt-8 border border-color-[#fcd5ce]">
+                <!-- heading of scholarship -->
+                <div class="bg-[#0f4c5c] font-mono text-white font-semibold">
+                    <p><%= eligibility.title %></p>
+                </div>
+
+                <div>
+                    <p class="font-sans font-bold">Eligibility</p>
+                    <ul class="font-serif">
+                        <% eligibility.eligi.forEach(criteria => { %>
+                            <li class="eligibility-criteria"><%= criteria %></li>
+                        <% }); %>
+                    </ul>
+                </div>
+                
+                <!-- <div class="font-serif">
+                    <p class="font-bold">Documents</p>
+                    <ul>
+                        <li>1.Class 12 marksheet and previous year/semester marksheet (for 2nd / 3rd / 4th year students)</li>
+                        <li>2.Government-issued address proof (e.g., Aadhaar card)</li>
+                        <li>3.Proof of family income (any one of the following documents):</li>
+                        <li>4.Income Tax Return (ITR) statement(optinal)</li>
+                        <li>5.Salary Slip</li>
+                        <li>6.Proof of admission (college/school ID card, academic fees receipt) and fee structure</li>
+                        <li>7.Proof of admission (college/school ID card, academic fees receipt) and fee structure</li>
+                        <li>8.Bank account details of the beneficiaries</li>
+                        <li>9.Photograph</li>
+                    </ul>
+                </div> -->
+
+
+                <!-- apply button -->
+                <div class="flex justify-center items-center ">
+                    <a class="bg-red-400 p-2 rounded-lg" href="<%= eligibility.link %>">Apply Now</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

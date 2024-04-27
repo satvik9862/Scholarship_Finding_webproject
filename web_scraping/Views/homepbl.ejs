@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .flex {
+            display: flex;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .left-panel {
+            width: 300px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .left-panel h2 {
+            margin-bottom: 20px;
+        }
+        .right-panel {
+            flex: 1;
+            padding: 20px;
+        }
+        .input-field {
+            margin-bottom: 20px;
+        }
+        .input-field input, 
+        .input-field select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .checkbox-content label {
+            font-size: 14px;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="flex h-screen">
+            <div class="w-64 bg-gray-800 text-white">
+              <div class="p-4">
+                <h2 class="text-2xl font-bold">Scholarship</h2>
+              </div>
+              <nav class="text-white mt-8">
+                <ul>
+                  <li class="py-2">
+                    <a href="/home" class="flex items-center px-4">
+                      <i class="fas fa-home mr-2"></i> Home
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="/get" class="flex items-center px-4">
+                      <i class="fas fa-graduation-cap mr-2"></i> Scholarships
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#" class="flex items-center px-4">
+                      <i class="fas fa-info-circle mr-2"></i> About
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="/chat" class="flex items-center px-4">
+                      <i class="fas fa-envelope mr-2"></i> Community Forum
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="/profile" class="flex items-center px-4">
+                      <i class="fa-solid fa-user-plus mr-2"></i> Profile
+                    </a>
+                  </li>
+                  <li class="py-2">
+                    <a href="/" class="flex items-center px-4">
+                      <i class="fa-solid fa-right-to-bracket"></i> Log out
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        <div class="right-panel">
+            <form action="/createProfile" method="POST">
+                <div class="input-field">
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="state" name="state" placeholder="State" required>
+                </div>
+                <div class="input-field">
+                    <input type="number" id="income" name="income" placeholder="Income" required>
+                </div>
+                <div class="input-field">
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="input-field">
+                    <select id="education" name="education" required>
+                        <option value="" disabled selected>Select your education</option>
+                        <option value="1-10">Class 1 to 10</option>
+                        <option value="11-12">11 & 12th</option>
+                        <option value="undergraduation">Undergraduation</option>
+                        <option value="postgraduation">Postgraduation</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="medical">Medical</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <select id="caste" name="caste" required>
+                        <option value="" disabled selected>Select your caste</option>
+                        <option value="OBC">OBC</option>
+                        <option value="ST">ST</option>
+                        <option value="SC">SC</option>
+                        <option value="GENERAL">General</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+                    <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+                </div>
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="termCon" required>
+                        <label for="termCon" class="text">I accept all terms and conditions</label>
+                    </div>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
